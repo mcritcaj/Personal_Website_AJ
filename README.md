@@ -1,2 +1,3 @@
 # Personal_Website_AJ
-My personal website
+This is the code responsible for my own personal website.
+Enjoy!
