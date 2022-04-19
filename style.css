@@ -1,0 +1,29 @@
+i.bi {
+    padding: 0.2em 0.3em;
+    color: ghostwhite;
+    font-size: large;
+}
+
+.miamired {
+    color: #950F22;
+}
+
+.waviy {
+    position: relative;
+  }
+
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 3s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  
+  @keyframes flip {
+    0%,50% {
+      transform: rotateY(360deg) 
+    }
+  }
